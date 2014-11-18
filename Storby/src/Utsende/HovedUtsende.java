@@ -16,29 +16,5 @@ public class HovedUtsende extends JFrame {
 		add (new Vaervisning(),BorderLayout.CENTER);
 		setSize(900,600);
 		setVisible(true);
-		
-		//----------JMenuBar-----------\\
-		JMenuBar mbar = new JMenuBar();
-		setJMenuBar(mbar);
-		
-		JMenu file = new JMenu("File");
-		mbar.add(file);
-		
-		JMenuItem exit = new JMenuItem("Exit");
-		file.add(exit);
-		
-		JMenu help = new JMenu("Help");
-		mbar.add(help);
-		
-		JMenuItem about = new JMenuItem("About");
-		help.add(about);
-		
-		class exitaction implements ActionListener{
-			public void actionPerformed (ActionEvent e ){
-				System.exit(0);
-			}
-		}
-		exit.addActionListener(new exitaction());
-		//------------------------------\\
 	}
 }
