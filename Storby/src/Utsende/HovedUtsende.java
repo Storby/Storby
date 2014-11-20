@@ -1,11 +1,12 @@
 package Utsende;
 import java.awt.BorderLayout;
 import java.awt.event.*;
-import javax.swing.*;
 
+import javax.swing.*;
 
 public class HovedUtsende extends JFrame {
 		
+
 	public HovedUtsende(){
 		setLayout(new BorderLayout(20,10));
 		add(new JPanel(),BorderLayout.WEST);
@@ -13,7 +14,7 @@ public class HovedUtsende extends JFrame {
 		setTitle("Vær oversikt over storbyer");
 		setJMenuBar(new Hovedmeny());
 		getContentPane().add(new Knappeoversikt(),BorderLayout.WEST);
-		add (new Vaervisning(),BorderLayout.CENTER);
+		add(new Vaervisning(),BorderLayout.CENTER);
 		setSize(900,600);
 		setVisible(true);
 	}
