@@ -17,5 +17,6 @@ public class HovedUtsende extends JFrame {
 		add(new Vaervisning(),BorderLayout.CENTER);
 		setSize(900,600);
 		setVisible(true);
+		setLocationRelativeTo(null);
 	}
 }
