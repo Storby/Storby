@@ -1,6 +1,5 @@
 package Utsende;
 import java.awt.BorderLayout;
-import java.awt.event.*;
 
 import javax.swing.*;
 
